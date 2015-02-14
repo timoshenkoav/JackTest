@@ -11,6 +11,15 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    productFlavors {
+        dev {
+
+        }
+        experimental {
+            useJack = true
+        }
+
+    }
     buildTypes {
         release {
             minifyEnabled false
